@@ -1,0 +1,24 @@
+
+backend:
+  name: github
+  repo: aerrushaikh-rgb/ladytouch-premium-
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "site"
+    label: "Website Content"
+    files:
+      - name: "content"
+        label: "Salon Content"
+        file: "content.json"
+        format: "json"
+        fields:
+          - label: "Website Name"
+            name: "title"
+            widget: "string"
+          - label: "Description"
+            name: "description"
+            widget: "text"
